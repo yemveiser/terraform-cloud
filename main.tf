@@ -5,7 +5,7 @@ variable "access_key" {}
 variable "secret_key" {}
 variable "subnet_id" {}
 
-resource "aws_instance" "terraform-cloud-demo" {
+resource "aws_instance" "terraform-cloud-New-Version" {
   ami           = var.ami
   instance_type = var.instance_type
   subnet_id   = var.subnet_id
